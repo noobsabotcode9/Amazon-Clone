@@ -1,0 +1,115 @@
+.container5 {
+  height: 35px;
+  width: 1205px;
+  margin-left:-622px;
+  margin-top: 1px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #cacaca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterIcon {
+  margin-right: 60px; 
+  margin-left: 150px;/* Adjust the margin to your preference */
+}
+
+.filterOptions {
+  display: flex;
+  gap: 50px; /* Adjust the gap to your preference */
+}
+
+.filterOption {
+  cursor: pointer;
+  padding: 5px 20px; /* Adjust padding to your preference */
+  background-color: #7c7d80; /* Set background color */
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  color: white; /* Add a smooth transition */
+}
+
+.filterOption:hover {
+  background-color: #546583; /* Change background color on hover */
+}
+
+.filterOption.active {
+  background-color: #496274; /* Change background color for the active option */
+}
+.dotsMenuIcon {
+  margin-left: auto; 
+  margin-right: 40px;/* Align the dots menu icon to the right */
+}
+
+.container8{
+  height: 285px;
+  width: 1205px;
+  margin-left: -622px;
+  margin-top: 1px;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #cacaca;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+}
+.scheduleItem {
+  display: flex;
+  align-items: center; /* Align items horizontally within each schedule item */
+  justify-content: space-between;
+   /* Add space between elements */
+  margin-bottom: 10px; /* Adjust as needed for spacing between schedule items */
+}
+
+.scheduleItem input {
+  margin-right: 10px;
+  margin-top: 15px; /* Align the checkbox with the center of the flex container */
+     /* Increased margin for more spacing between the checkbox and other elements */
+   /* Adjust as needed for spacing between the checkbox and other elements */
+}
+.scheduleItem span {
+  margin-right: 50px; /* Increased margin for more spacing between other elements */
+}
+.scheduleItem button.viewButton {
+  margin-left: 100px;
+}
+.scheduleItem button.profileButton {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  border-radius: 30%; /* Make it round */
+  background-color: #3498db; /* Set the background color */
+  color: #fff; /* Set the text color */
+  font-size: 16px; /* Adjust as needed */
+  font-weight: bold; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.scheduleItem span {
+  display: flex;
+  align-items: center;
+}
+
+.scheduleItem span.time {
+  margin-right: 100px;
+   /* Add spacing of 100px between time and event name */
+}
+.scheduleItem span.date {
+  margin-right: 100px;
+   /* Add spacing of 100px between time and event name */
+}
+.scheduleItem span.name {
+  margin-right: 100px;
+  /* Add any additional styling for event name */
+}
+
+.scheduleItem span.location {
+  margin-right: 100px;
+  /* Add any additional styling for time and location */
+}

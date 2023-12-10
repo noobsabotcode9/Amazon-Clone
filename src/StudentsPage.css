@@ -1,0 +1,31 @@
+/* StudentsPage.css */
+
+.studentsPageContainer {
+    margin-left: 300px; /* Add a gap of 30px from the left (main menu) */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .studentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Style for each student box */
+  .studentBox {
+    border: 1px solid #ddd; /* Border for each box */
+    padding: 15px;
+    width: calc(33.33% - 30px); /* 33.33% width for each box with a gap of 30px in between */
+    box-sizing: border-box;
+    margin-bottom: 30px; /* Add a gap of 30px at the bottom of each box */
+  }
+  
+  /* Media query for responsiveness (adjust as needed) */
+  @media (max-width: 768px) {
+    .studentBox {
+      width: calc(50% - 30px); /* 50% width for each box on smaller screens */
+    }
+  }
+  

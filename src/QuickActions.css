@@ -1,0 +1,111 @@
+/* QuickActions.css */
+
+.quickActionsContainer {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: -5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 78px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+  }
+  
+  .quickActionsText {
+    margin: 10px;
+  }
+  
+  .actionOptions {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4px;
+    margin-top: -10px;
+  }
+  
+  .actionOption {
+    
+    
+    margin: 10px;
+    cursor: pointer;
+    
+  background-color: #364953; /* Background color for options */
+  color: #fff; /* Text color for options */
+  padding: 8px; /* Add padding for better aesthetics */
+  border-radius: 5px;transition: background-color 0.3s ease; /* Added transition effect */
+}
+
+.actionOption:hover {
+  background-color: #55677d; /* New background color on hover */
+}
+  
+  .actionOption i {
+    margin-right: 5px;
+  }
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  }
+  
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  }
+  
+  .modalContent {
+    position: relative; /* Make the position relative for absolute positioning of close button */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4c89af;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+button:hover {
+  background-color: #45a049; /* Change background color on hover */
+}

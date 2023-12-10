@@ -1,0 +1,38 @@
+/* ProfessorsPage.css */
+
+.professorsPageContainer {
+    padding: 20px;
+    margin-left: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  .professorsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+  
+  .professorBox {
+    border: 1px solid #ddd;
+    padding: 50px; /* Increase padding for a larger box */
+    border-radius: 12px; /* Rounded corners for a more elegant look */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow for more depth */
+    transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+  }
+  
+  .professorBox:hover {
+    transform: scale(1.05); /* Scale up the box on hover */
+  }
+  
+  .professorBox p {
+    margin: 5px 5px 5px 5px;
+    font-size: 25px; /* Increase font size for better readability */
+  }
+  
+  /* Additional styling based on your preferences */
+  

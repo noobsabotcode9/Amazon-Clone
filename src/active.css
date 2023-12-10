@@ -1,0 +1,22 @@
+/* Dashboard.css */
+
+
+  
+  .active1 {
+    margin-left: 230px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 20px;
+    width: 805px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leftContent,
+  .rightContent {
+    font-weight: bold;
+  }
+  

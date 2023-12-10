@@ -1,0 +1,134 @@
+/* TitleBar.css */
+
+.titleBarContainer {
+  
+    background-color: #f5f5f5; /* Slightly darker white */
+    min-height: 7.5vh;
+    
+  }
+  
+  .titleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Slightly darker white */
+    color: #333; /* Black */
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+  }
+  .dateText {
+    font-size: 12px;
+    margin: 0 100px 0 100px; /* Adjust the margin for spacing */
+  }
+  
+  .logo {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    margin-top: -5px;
+    margin-right: 20px;
+  margin-left: -360px;
+  }
+  .dateContainer {
+     /* Center the date container */
+     position: relative;
+     top: 33px; /* Align with the top of the titleBar container */
+     left: 50px;
+     
+  
+  /* Set margin to the right of the date */
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcomeText {
+    font-size: 25px;
+    margin: 0 10px 0 20px;
+  }
+  
+  .summaryText {
+    font-size: 18px;
+    margin: 0 10px 0 20px;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .iconBackground {
+    background-color: #ddd; /* Slightly lighter gray */
+    border-radius: 50%;
+    width: 35px; /* Set the width and height to ensure a perfect circle */
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px; /* Adjust the margin to create space */
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 25px;
+    color: #333; /* Black */
+  }
+  
+  .profilePicture {
+    width: 50px; /* Adjust the width for the desired size */
+    height: 50px; /* Adjust the height for the desired size */
+    border-radius: 50%;
+    margin: 0 0px 0 115px;
+  }
+  
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 10px;
+  }
+  
+  .profileName {
+    font-size: 20px;
+    margin: 0;
+    color: #333; /* Black */
+  }
+  
+  .profileEmail {
+    font-size: 12px;
+    margin: 0;
+    color: #333; /* Black */
+  }
+  
+  .titleBarContainer .iconBackground:hover {
+    background-color: #ccc; /* Change the color to your desired hover effect */
+  }
+  /* TitleBar.css */
+
+/* ... (existing styles) */
+
+/* TitleBar.css */
+
+/* ... (existing styles) */
+
+.notificationDialog {
+    position: absolute;
+    top: 40px;
+    right: 190px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  
+  
+  /* ... (existing styles) */
+  

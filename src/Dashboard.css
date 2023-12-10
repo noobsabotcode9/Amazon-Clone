@@ -1,0 +1,210 @@
+.dashboardBody{
+  display: flex;
+ 
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* This will hide the horizontal scrollbar */
+}
+.dashboardContainer {
+  height: 20px;
+  width: 600px;
+  margin-left: 245px;
+  margin-top: -5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboardWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboardLeft,
+.dashboardRight {
+  width: 68%; /* Adjust the width as needed */
+}
+.container2 {
+  height: 30px;
+  width: 600px;
+  margin-left: 245px;
+  margin-top: 8px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   /* Adjust the height as needed */
+  background-color: #ffffff; /* Set a background color */
+   /* Adjust the margin as needed */
+}
+.feePaymentSummary {
+  font-size: 22px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.dropdown {
+  
+  margin-top: 5px;
+}
+
+/* Style for the select element */
+select {
+  padding: 5px;
+  font-size: 14px;
+}
+.container3 {
+  margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 7px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+  
+}
+.additionalSummary {
+  font-size: 22px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.dropdown2 {
+  
+  margin-top: -35px;
+  margin-left: 425px;
+}
+.dashboardRight2 {
+  width: 98%; /* Adjust the width as needed */
+}
+.downArrowIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-left: 560px;
+  width: 30px;
+  height: 30px;
+  background-color: #000000; /* Adjust the background color as needed */
+  border-radius: 50%;
+  color: #fff; /* Icon color */
+  cursor: pointer;
+  margin-top: -28px; /* Adjust the margin as needed */
+}
+
+.downArrowIcon i {
+  font-size: 20px;
+}
+.container4 {
+  height: 280px;
+  width: 600px;
+  margin-left: 245px;
+  margin-top: 1px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+   /* Change to column layout */
+  
+}
+
+
+
+#pieChart {
+  
+  margin-top: -10px;
+  
+}
+
+.amountReceived {
+ margin-top: 210px;
+ margin-left: 25px;
+ margin-bottom: 0%;/* Change the color as needed */
+}
+
+.amountPending {
+  margin-right: 25px;
+  margin-top: 210px; 
+  margin-bottom: 0%;/* Change the color as needed */
+}
+.container6{
+  margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.container7{
+  margin-left: 303px;
+    margin-right: 2px;
+    margin-top: -302px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+.chartContainer {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: #fff;
+ 
+  padding: 20px;
+  
+}
+
+/* Styles for the chart canvas */
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Optional: Add styles for chart titles or other elements */
+.chartTitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Optional: Add styles for chart labels or legends */
+.chartLabel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Customize colors as needed */
+.revenueChart {
+  background-color: rgba(54, 73, 83, 0.8);
+}
+
+.studentsChart {
+  background-color: rgb(110, 115, 129)
+}
+.chartText {
+  margin-top: 10px;
+  margin-left: 20px;
+ 
+ }
